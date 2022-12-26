@@ -1,0 +1,27 @@
+{
+  "name": "react-flash-card",
+  "version": "1.0.0",
+  "description": "a demo flash card app",
+  "author": "DoiTungLam <doitunglam1@gmail.com>",
+  "keywords": [
+    "react"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doitunglam/react-flash-card"
+  },
+  "scripts": {
+    "start": "./bin/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "pino": "^8.8.0",
+    "pino-http": "^8.3.0",
+    "pino-pretty": "^9.1.1"
+  }
+}
